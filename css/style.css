@@ -1,18 +1,10 @@
 @font-face {
-	font-family: Lobster;
-	src: url(../font/Lobster-Regular.ttf);
-}
-@font-face {
 	font-family: Opensans;
 	src: url(../font/OpenSans-Regular.ttf);
 }
 @font-face {
 	font-family: Opensansb;
 	src: url(../font/OpenSans-Bold.ttf);
-}
-@font-face {
-	font-family: Opensansxb;
-	src: url(../font/OpenSans-ExtraBold.ttf);
 }
 * {
 	box-sizing: border-box;
@@ -23,16 +15,15 @@
 .bord {
 	border: solid red;
 }
-.head {
-	display: flex;
-	flex-direction: column;
-}
+
 .prehead {
 	display: flex;
 	flex-direction: column;
 	background: #24BC24;
-	font-size: 18px;
+	font-size: 3vh;
+	
 }
+
 .prehead ul {
 	display: flex;
 	list-style: none;
@@ -62,52 +53,54 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	flex: 1 1 60%;
+	flex: 1 1 55%;
 	margin-left: 20px;
 }
 .head__left h1 {
-	font-size: 35px;
+	font-size: 7vh;
 }
 .head__left h4 {
-	font-size: 18px;
+	font-size: 3vh;
 	color: grey;
 }
 .head__center {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 15%;
+	flex-basis: 20%;
 	position: relative;
+	font-size: 2.5vh;
+	
 }
 .head__right {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	flex-basis: 15%;
+	font-size: 2.5vh;
 }
 #adr {
-	margin-left: 30px;
-	margin-top: 6px;
+	margin-left: 15%;
+	margin-top: 4%;
 }
 .head__center:before {
 	content:"";
-	height: 30px;
-	width: 30px;
+	height: 30%;
+	width: 14%;
 	position: absolute;
-	padding-left: 10;
 	left: 0px;
 	background-image: url(../img/adress.png);
-	background-size: 30px 30px;
+	background-size: 89%;
 	
 	}
 		
 .head__right:before {
 	content:"";
-	height: 23px;
-	width: 23px;
+	height: 25%;
+	width: 14%;
 	position: absolute;	
 	left: 0px;
 	background-image: url(../img/phone.png);
-	background-size: 23px 23px;
+	background-size: 88%;
 	}
 
 aside {
@@ -127,7 +120,7 @@ aside {
 }
 .text h2 {
 	display: flex;
-	font-size: 50px;
+	font-size: 9vh;
 }
 .text p {
 	margin-top: 20px;
@@ -192,6 +185,7 @@ input::placeholder {
  	display: flex;
  	justify-content: center;
  	margin: 20px 10px;
+ 	width: 100%;
  }
 .container {
 	display: flex;
