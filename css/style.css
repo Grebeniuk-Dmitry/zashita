@@ -109,7 +109,8 @@ header {
 
 aside {
 	display: flex;
-	height: 35vmax;
+	flex: 1 1 100%;
+	height: 36vmax;
 	background-image: url(../img/logoy.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -134,11 +135,11 @@ aside {
 }
 
 .form {
-	display: flex;
+	isplay: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex: 0 0 35%;
+	flex: 1 1 35%;
 	text-align: center;
 	padding: 0.1vmax;
 	border-radius: 0.7vmax;
@@ -163,7 +164,6 @@ aside {
 .contact_form textarea {
 	resize: none;
 	text-overflow: auto;
-	padding: 0.1vmax;
 	width: 90%;
 	border:solid 0.2vmax #24BC24;
 	border-radius: 0.7vmax;
@@ -289,17 +289,17 @@ input::placeholder {
 	flex-direction: column;
 	background-color: #24BC24;
 	min-width: 97%;
-	border-radius: 1.5vh;
+	border-radius: 0.6vmax;
 }
 
 .advanse__row {
-	margin: 3vh 0px;
+	margin: 1.2vmax 0px;
 	text-align: center;
 	flex: 1 1 auto;	
 }
 
 .advanse__row h4 {
-	font-size: 4vh;
+	font-size: 1.7vmax;
 	font-family: opensansb;
 	text-transform: uppercase;
 	position: relative;
@@ -308,21 +308,21 @@ input::placeholder {
 .advanse__row h4:before {
 	content: "";
 	position: absolute;
-	left: 10vh;
+	left: 5vmax;
 	top: 50%;
 	background-color: black;
 	width: 30%;
-	height: 0.3vh;
+	height: 0.15vmax;
 }
 
 .advanse__row h4:after {
 	content: "";
 	position: absolute;
-	right: 10vh;
+	right: 5vmax;
 	top: 50%;
 	background-color: black;
 	width: 30%;
-	height: 0.3vh;
+	height: 0.15vmax;
 }
 
 .advanse__column {
@@ -333,7 +333,7 @@ input::placeholder {
 .advanse__column__col {
 	display: flex;
 	flex-direction: column;
-	margin: 0px 3vh 1.8vh 3vh;
+	margin: 0px 1vmax 2vmax 1vmax;
 	flex: 1 1 25%;
 	align-items: center;
 }
@@ -344,12 +344,12 @@ input::placeholder {
 
 .advanse__column p {
 	font-family: opensans;
-	font-size: 3.2vh;
+	font-size: 1.6vmax;
 }
 
 .containerask {
 	display: flex;
-	margin: 3vh 0px;
+	margin: 1.4vmax 0px;
 	justify-content: center;
 }
 
@@ -363,16 +363,16 @@ input::placeholder {
 
 .ask__row {
 	text-align: center;
-	margin: 0px 0px 4vh 0px; 
+	margin: 0px 0px 2vmax 0px; 
 }
 
 .ask__row {
-	font-size: 4vh;
+	font-size: 2vmax;
 }
 
 .ask__column {
-	font-size: 4vh;
-	line-height: 5vh;
+	font-size: 1.7vmax;
+	line-height: 2.5vmax;
 }
 
 footer {
@@ -386,41 +386,41 @@ footer {
 	flex-wrap: wrap;
 	width: 97%;
 	background-color: #24BC24;
-	border-radius: 1.4vh;
+	border-radius: 0.7vmax;
 }
 
 .footer__column {
 	display: flex;
 	width: 100%;
 	background-color: #24BC24;
-	border-radius: 3vh;
+	border-radius: 0.7vmax;
 }
 
 .footer__column1 {
 	display: flex;
 	flex: 1 1 50%;
-	padding: 1.4vh 3vh;
+	padding: 0.8vmax 3vmax;
 	flex-direction: column;
 }
 
 .footer__column1:first-child {
-	border-right: solid 0.4vh black;
+	border-right: solid 0.2vmax black;
 }
 
 .footer__column1 h6 {
-	font-size: 4vh;
-	margin: 1.4vh;
+	font-size: 2vmax;
+	margin: 1vmax;
 }
 
 .footer__column1 a {
-	font-size: 3.5vh;
-	line-height: 4.7vh;
+	font-size: 1.3vmax;
+	line-height: 2.5vmax;
 	text-decoration: none;
 	color: black;
 }
 
 .footer__column1 data {
-	font-size: 3vh;
+	font-size: 1.3vmax;
 }
 
 .footer__column1 a:before {
@@ -433,8 +433,8 @@ footer {
 }
 
 .footer__column1 p {
-	font-size: 3.2vh;
-	line-height: 5vh;
+	font-size: 1.3vmax;
+	line-height: 2.5vmax;
 }
 
 .footer__up {
@@ -448,18 +448,16 @@ footer {
 	justify-content: flex-end;
 	width: 100%;
 	background-color: #24BC24;
-	border-radius: 2vh;
-	padding: 1.4vh;
+	padding: 0.1vmax;
 }
 
 .footer__up-sosial img {
-	width: 8vh;
-	margin: 0px 1.4vh;
+	width: 4vmax;
+	margin: 0px 0.7vmax;
 }
 
 .footer__up-sosial img:hover{
-	width: 8vh;
-	margin: 0px 1.4vh;
+	width: 4vmax;
 	background: linear-gradient(blue,red);
 	border-radius: 50%;
 }
@@ -475,8 +473,9 @@ footer {
 	margin-right: 7%;
 	color: black; 
 	background-color: #24BC24;
-	border: solid 1vh #24BC24;
-	font-size: 3vh;
+	border: solid 0.4vmax #24BC24;
+	font-size: 1.7vmax;
+	font-weight: bold;
 }
 
 .footer__down button:hover {
@@ -490,33 +489,33 @@ footer {
 	align-items: center;
 	flex: 1 1 100%;
 	background-color: #ccc;
-	padding: 2vh 10vh;
-	margin: 2vh;
-	border-radius: 1.2vh
+	padding: 1vmax 4vmax;
+	margin: 1vmax;
+	border-radius: 0.6vmax
 }
 
 .footer__down-row p{
-	font-size: 2.8vh;
+	font-size: 1.2vmax;
 	color: black;
 }
 .footer__down-row a {
 	display: inline-block;
-	border: solid black 0.5vh;
+	border: solid black 0.2vmax;
 	background-color: white;
-	border-top-left-radius: 2vh 30%;
-	border-bottom-right-radius: 2vh 30%;
-	height: 4vh;
-	width: 4vh;
+	border-top-left-radius: 1vmax 30%;
+	border-bottom-right-radius: 1vmax 30%;
+	height: 2vmax;
+	width: 2vmax;
 	position: relative;
-	top: 0.7vh;
-	left: -1vh;
+	top: 0.5vmax;
+	left: -0.5vmax;
 }
 
 .footer__down-row a:hover {
-	border: solid black 0.5vh;
+	border: solid black 0.2vmax;
 	background-color: #24BC24;
-	border-top-right-radius: 2vh 30%;
-	border-bottom-left-radius: 2vh 30%;
+	border-top-right-radius: 1vmax 30%;
+	border-bottom-left-radius: 1vmax 30%;
 	border-top-left-radius: 0;
 	border-bottom-right-radius: 0;	
 }
