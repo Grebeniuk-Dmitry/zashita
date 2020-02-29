@@ -84,10 +84,11 @@ header {
 }
 .head__center:before {
 	content:"";
-	height: 35%;
+	height: 40%;
 	width: 14%;
 	position: absolute;
 	left: 0px;
+	top:-1vh;
 	background-image: url(../img/adress.png);
 	background-size: 90%;
 	background-repeat: no-repeat;
@@ -96,10 +97,11 @@ header {
 		
 .head__right:before {
 	content:"";
-	height: 30%;
+	height: 40%;
 	width: 14%;
 	position: absolute;	
 	left: 0px;
+	top:-1vh;
 	background-image: url(../img/phone.png);
 	background-size: 90%;
 	background-repeat: no-repeat;
@@ -469,8 +471,8 @@ footer {
 		
 }
 .footer__down button {
-	width: 12%;
-	margin-right: 30vh;
+	width: 15%;
+	margin-right: 7%;
 	color: black; 
 	background-color: #24BC24;
 	border: solid 1vh #24BC24;
