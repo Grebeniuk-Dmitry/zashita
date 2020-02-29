@@ -68,7 +68,7 @@ header {
 	flex-direction: column;
 	flex-basis: 20%;
 	position: relative;
-	font-size: 2.5vh;
+	font-size: 3vh;
 	
 }
 .head__right {
@@ -76,7 +76,7 @@ header {
 	flex-direction: column;
 	position: relative;
 	flex-basis: 15%;
-	font-size: 2.5vh;
+	font-size: 3vh;
 }
 #adr {
 	margin-left: 15%;
@@ -146,7 +146,7 @@ aside {
 	opacity: 0.85 
 }
 .form h3 {
-	font-size: 3.5vh;
+	font-size: 4vh;
 }
 
 .contact_form {
@@ -156,7 +156,7 @@ aside {
 
 .contact_form p {
     margin-top: 1.8vh;
-    font-size: 2.8vh;
+    font-size: 3vh;
 }
 
 .contact_form textarea {
@@ -180,7 +180,7 @@ aside {
 
 input::placeholder {
   color: darkgreen;
-  font-size: 2.5vh;
+  font-size: 2.8vh;
   font-style: italic;
 }
 
@@ -189,7 +189,7 @@ input::placeholder {
 	color: black;
 	padding: 1vh;
 	font-family: opensansb;
-	font-size: 2.8vh;
+	font-size: 3.3vh;
 	border: solid #24BC24;
 	border-radius: 1.3vh;
 	margin: 2vh;
@@ -222,13 +222,13 @@ input::placeholder {
 
 .work__1 h4 {
 	font-family: opensans;
-	font-size: 3.2vh;
+	font-size: 4vh;
 	text-transform: uppercase;
 	
 }
 
 .work li {
-	font-size: 2.2vh;
+	font-size: 2.8vh;
 	line-height: 4.2vh;
 	font-weight: bold;
 
@@ -264,7 +264,7 @@ input::placeholder {
 	border-radius: 1.5vh;
 	margin: 0px 8vh;
 	padding: 2vh 0px;
-	font-size: 3vh;
+	font-size: 3.3vh;
 }
 
 .button a {
@@ -299,7 +299,7 @@ input::placeholder {
 }
 
 .advanse__row h4 {
-	font-size: 3.5vh;
+	font-size: 4vh;
 	font-family: opensansb;
 	text-transform: uppercase;
 	position: relative;
@@ -344,7 +344,7 @@ input::placeholder {
 
 .advanse__column p {
 	font-family: opensans;
-	font-size: 3.2vh;
+	font-size: 4vh;
 }
 
 .containerask {
@@ -371,7 +371,7 @@ input::placeholder {
 }
 
 .ask__column {
-	font-size: 3.2vh;
+	font-size: 4vh;
 	line-height: 5vh;
 }
 
@@ -408,19 +408,19 @@ footer {
 }
 
 .footer__column1 h6 {
-	font-size: 3.5vh;
+	font-size: 4vh;
 	margin: 1.4vh;
 }
 
 .footer__column1 a {
-	font-size: 3vh;
+	font-size: 3.5vh;
 	line-height: 4.7vh;
 	text-decoration: none;
 	color: black;
 }
 
 .footer__column1 data {
-	font-size: 2.5vh;
+	font-size: 3vh;
 }
 
 .footer__column1 a:before {
@@ -433,7 +433,7 @@ footer {
 }
 
 .footer__column1 p {
-	font-size: 2.8vh;
+	font-size: 3.2vh;
 	line-height: 5vh;
 }
 
