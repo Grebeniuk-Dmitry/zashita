@@ -27,15 +27,15 @@
 .prehead ul {
 	display: flex;
 	list-style: none;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-left: 3vh;
+	padding-top: 1.8vh;
+	padding-bottom: 1.8vh;
 }
 .prehead ul a {
 	display: flex;
 	font-family: opensansb;
 	text-decoration: none;
-	padding-left: 20px;
+	padding-left: 4vh;
 	color: black;
 }
 .prehead ul a:hover {
@@ -46,15 +46,15 @@
 header {
 	display: flex;
 	justify-content: space-between;
-	margin-top:10px;
-	margin-bottom: 20px;
+	margin-top: 1.8vh;
+	margin-bottom: 3vh;
 }
 .head__left {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex: 1 1 55%;
-	margin-left: 20px;
+	margin-left: 5vh;
 }
 .head__left h1 {
 	font-size: 7vh;
@@ -105,25 +105,28 @@ header {
 
 aside {
 	display: flex;
+	height: 75vh;
 	background-image: url(../img/logoy.jpg);
 	background-size: 100%;
-	padding: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 1.8vh;
 }
 .text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex: 1 1 65%;
-	padding-left: 20px;
+	padding-left: 4vh;
 	color: black;
 	text-shadow: 1px 1px 5px #fff, 0 0 2em #24BC24, 0 0 0.2em #ccc;
 }
 .text h2 {
-	display: flex;
 	font-size: 9vh;
 }
 .text p {
-	margin-top: 20px;
+	margin-top: 3vh;
+	font-size: 2.5vh;
 }
 
 .form {
@@ -131,51 +134,60 @@ aside {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex: 1 1 35%;
+	flex: 0 0 35%;
 	text-align: center;
-	padding: 0px;
-	border-radius: 10px;
+	padding: 0vh;
+	border-radius: 1.2vh;
 	background-color: #ccc;
 	opacity: 0.85 
 }
-/*-- Если будет нужно сделать адаптивной форму нужно не забыть прописать флекс для contact_form */
+.form h3 {
+	font-size: 3.5vh;
+}
+
+.contact_form {
+	display: flex;
+	flex-direction: column;
+}
+
 .contact_form p {
-    width:100%;
-    padding-top: 5px;
+    margin-top: 1.8vh;
+    font-size: 2.8vh;
 }
-.contact_form label {
-	width: 90%;
-	margin: 5px;
-}
+
 .contact_form textarea {
 	resize: none;
 	text-overflow: auto;
-	padding: 3px;
+	padding: 1vh;
 	width: 90%;
-	border:solid 2px #24BC24;
-	border-radius: 10px;
-	font-size: 20px;
+	border:solid 0.4vh #24BC24;
+	border-radius: 1.2vh;
+	font-size: 3vh;
 }
 .contact_form input {
-	margin-top: 10px;
-	border:solid 2px #24BC24;
-	height: 30px;
-	border-radius: 5px;
-	font-size: 20px;
+	margin-top: 1.8vh;
+	margin-left: 1.2vh;
+	border:solid 0.4vh #24BC24;
+	height: 5vh;
+	border-radius: 1.2vh;
+	font-size: 3vh;
 }
+
 input::placeholder {
   color: darkgreen;
-  font-size: 18px;
+  font-size: 2.5vh;
   font-style: italic;
 }
+
 .contact_form button {
 	background-color: #24BC24;
 	color: black;
-	padding: 2px;
+	padding: 1vh;
 	font-family: opensansb;
+	font-size: 2.8vh;
 	border: solid #24BC24;
-	border-radius: 5px;
-	margin: 10px;
+	border-radius: 1.3vh;
+	margin: 2vh;
 }
 .contact_form button:hover {
 	color: #fff;
