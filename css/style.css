@@ -48,7 +48,45 @@ header {
 	justify-content: space-between;
 	margin-top: 1vmax;
 	margin-bottom: 1.7vmax;
+
 }
+
+
+@media (max-width: 767px) {
+	.prehead {
+	background: #24BC24;
+	font-size: 3vmax;
+}
+
+
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		flex-wrap: wrap;
+		border: solid;
+		max-width: none;
+	}
+.head__center{
+	display: flex;
+	width: 90%;
+	border: solid;	
+	font-size: 50px;
+}
+#adr {
+	margin: 0;
+		}
+.head__center:before {
+	content:"";
+	display: none;	
+	}
+}
+
+
+
+
+
 .head__left {
 	display: flex;
 	flex-direction: column;
@@ -115,6 +153,7 @@ aside {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	padding: 0.4vmax;
 }
 .text {
@@ -135,7 +174,7 @@ aside {
 }
 
 .form {
-	isplay: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -194,6 +233,7 @@ input::placeholder {
 	border: solid 0.1vmax #24BC24;
 	border-radius: 0.5vmax;
 	margin-bottom: 2vmax;
+	margin-top: 1vmax;
 }
 .contact_form button:hover {
 	color: #fff;
@@ -387,6 +427,7 @@ footer {
 	width: 97%;
 	background-color: #24BC24;
 	border-radius: 0.7vmax;
+	margin-bottom: 2vmax;
 }
 
 .footer__column {
