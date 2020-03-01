@@ -21,7 +21,6 @@
 	flex-direction: column;
 	background: #24BC24;
 	font-size: 1.4vmax;
-	
 }
 
 .prehead ul {
@@ -291,7 +290,8 @@ input::placeholder {
 	display: flex;
 	flex-direction: column;
 	background-color: #24BC24;
-	min-width: 97%;
+	width: 97%;
+	lex: 1 1 97%;
 	border-radius: 0.6vmax;
 }
 
@@ -299,6 +299,7 @@ input::placeholder {
 	margin: 1.2vmax 0px;
 	text-align: center;
 	flex: 1 1 auto;	
+
 }
 
 .advanse__row h4 {
