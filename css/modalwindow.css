@@ -1,5 +1,5 @@
 .modal {
-    display: flex; /* Hidden by default */
+    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 2vmax; /* Location of the box */
@@ -15,10 +15,10 @@
 
 .modal-content {
     position: relative;
-    background-color: #E1BEE7;
+    background-color: #fff;
     margin: auto;
     padding: 0;
-    border: 5px solid #7B1FA2;
+    border: 5px solid #24BC24;
     height: 90%;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -41,9 +41,8 @@
 
 
 .close {
-    color: white;
-    float: right;
-    font-size: 28px;
+    color: black;
+    font-size: 1.6vmax;
     font-weight: bold;
 }
 
@@ -55,22 +54,32 @@
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #9C27B0;
-    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 1vmax 16px;
+    background-color: #24BC24;
+    color: black;
+    text-align: center;
+}
+.modal-header h2 {
+    margin-left: 40%;
+    font-size: 1.4vmax;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 2px 16px;
+    text-align: center;
+}
+.modal-body {
+    font-size: 1vmax;
+}
+
 
 .modal-body iframe {
-    margin: 2px auto;
+    margin-top: 1vmax;
     width: 40vmax; 
     height: 30vmax;
-
-}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #9C27B0;
-    color: white;
+    font-size: 1.4vmax;
 }

@@ -6,9 +6,10 @@
 	<title>Покровський Землеустроитель</title>
 	<link rel="shortcut icon" href="img/location.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/normalise.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/modalwindow.css">
-	<link rel="stylesheet" type="text/css" href="css/stylemedia.css"></head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/stylemedia.css">
+</head>
 <body>
 	<header>
 		<div class="head__left">
@@ -183,19 +184,28 @@
 			<h4>Ответы на часто задаваемые вопросы.</h4>
 		</div>
 		<div class="ask__column">
-			<p>bla... bla... blaaaaaa?</p>
+			<span class="title">Что такое кадастровый номер земельного участка?</span>
+			<ul>
+				<li>Это вещь!!!</li>
+			</ul>
 		</div>
-		<div class="ask__column">
-			<p>bla... bla... blaaaaaa?</p>
+		<div id="switch" class="ask__column">
+			<span class="title">Какую информацию можно увидеть на кадастровой карте Украины?</span>
+			<ul>
+				<li>Совершено Разную!!!</li>
+			</ul>
 		</div>
-		<div class="ask__column">
-			<p>bla... bla... blaaaaaa?</p>
+		<div id="switch" class="ask__column">
+			<span class="title">Сколько и какой земли можно бесплатно получить от государства?</span>
+			<ul>
+				<li>Всякой по разному!!!</li>
+			</ul>
 		</div>
-		<div class="ask__column">
-			<p>bla... bla... blaaaaaa?</p>
-		</div>
-		<div class="ask__column">
-			<p>bla... bla... blaaaaaa?</p>
+		<div id="switch" class="ask__column">
+			<span class="title">Почему мы должны платить деньги если в законе прописано что земля передается в собственность бесплатно?</span>
+			<ul>
+				<li>Потому что мы 6 лет дурака в Универе валяли потом получалили какую то бумажку в Киеве и каждые 4 года нам к этой бумажке дают новую бумажку!!!</li>
+			</ul>
 		</div>
 
 	</div>
@@ -205,11 +215,11 @@
 		<div class="footer__column">
 			<div class="footer__column1">
 				<h6>Быстрые ссылки</h6>
-				<a href="https://map.land.gov.ua" target="_blank">Кадастровая карта Украины</a>
-				<a href="https://e.land.gov.ua" target="_blank">Електронные сервисы ДЗК</a>
-				<a href="https://zakon.rada.gov.ua/laws" target="_blank">Законодательство Украины</a>
-				<a href="https://my.gov.ua/info/department/2987/details" target="_blank">Покровский районный ЦПАУ</a>
-				<a href="https://e-cnap.pokrovsk-rada.gov.ua/" target="_blank">Покровский городской ЦПАУ</a>
+				<a href="https://map.land.gov.ua" target="_blank">&#9658 Кадастровая карта Украины</a>
+				<a href="https://e.land.gov.ua" target="_blank">&#9658 Електронные сервисы ДЗК</a>
+				<a href="https://zakon.rada.gov.ua/laws" target="_blank">&#9658 Законодательство Украины</a>
+				<a href="https://my.gov.ua/info/department/2987/details" target="_blank">&#9658 Покровский районный ЦПАУ</a>
+				<a href="https://e-cnap.pokrovsk-rada.gov.ua/" target="_blank">&#9658 Покровский городской ЦПАУ</a>
 
 			</div>
 			<div class="footer__column1">
@@ -233,10 +243,10 @@
 			</div>
 		</div>
 		<div class="footer__down">
-			<button>Как нас найти ?</button>
+			<button id=kont>Как нас найти ?</button>
 		</div>
 		<div class="footer__down-row">
-			<p>Copyrigt &#169 все совпадения случайны</p>
+			<p>Copyrigt by Dmitry&#169 все совпадения случайны</p>
 			<p>
 				<a href=""></a>
 				Политика конфеденциальности
@@ -250,21 +260,14 @@
   <div class="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
-      <h2>Шапка модального окна</h2>
+      <h2>Наше местоположение</h2>
     </div>
     <div class="modal-body">
-      <p>Какой-то текст в теле модального окна</p>
-      <p>Ещё другой текст...</p>
+      <p>Вы нас легко сможете найти в г. Покровск с обратной стороны ТЦ "ЯВИР" рядом медцентр "НЕОСКИН"</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1791.044246062742!2d37.17426676700423!3d48.27422935593338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x40de3941c45bfa9d%3A0x2e75e43bf39441ee!2z0KTQntCfINCT0YDQtdCx0LXQvdGO0Log0JQu0JwsLCDQstGD0LssINGD0LvQuNGG0LAg0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtC60L7Qs9C-LCAyLzMsINCf0L7QutGA0L7QstGB0YzQuiwg0JTQvtC90LXRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgODUzMDA!3m2!1d48.273610399999995!2d37.174964599999996!5e1!3m2!1sru!2sua!4v1583435072245!5m2!1sru!2sua" frameborder="0" allowfullscreen=""></iframe>
     </div>
-    <div class="modal-footer">
-      <h3>Футер модального окна</h3>
-    </div>
   </div>
-
 </div>
-
-
 </body>
 <script src="js/main.js"></script>
 </html>

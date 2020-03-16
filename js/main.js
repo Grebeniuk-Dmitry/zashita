@@ -25,13 +25,13 @@ img.setAttribute('style', 'background-color: #fff')}, 300 * i);
  
 
 
-var modal = document.getElementById('myModal');
+let modal = document.getElementById('myModal');
 
 
-var btn = document.getElementById("kont");
+let btn = document.getElementById("kont");
 
 
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 
 btn.onclick = function() {
@@ -49,3 +49,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+let menuElem = document.getElementById('switch');
+    let titleElem = menuElem.querySelector('.title');
+
+    titleElem.onclick = function() {
+      menuElem.classList.toggle('open');
+    };
+    
